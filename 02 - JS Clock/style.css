@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-face {
+    width: 450px;
+    height: 450px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.hand {
+    width: 50%;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+    left:0;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+}
+
+.sec-hand {
+    height: 2px;
+}
